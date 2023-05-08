@@ -1,0 +1,31 @@
+{
+   "dependencies": {
+      "@volar-plugins/vetur": "^2.0.0",
+      "firebase": "^9.21.0",
+      "vue": "^3.2.47",
+      "vue-router": "^4.1.6"
+   },
+   "devDependencies": {
+      "@rushstack/eslint-patch": "^1.2.0",
+      "@vitejs/plugin-vue": "^4.0.0",
+      "@vue/eslint-config-prettier": "^7.1.0",
+      "autoprefixer": "^10.4.14",
+      "eslint": "^8.34.0",
+      "eslint-plugin-vue": "^9.9.0",
+      "postcss": "^8.4.23",
+      "prettier": "^2.8.8",
+      "prettier-plugin-tailwindcss": "^0.2.8",
+      "tailwindcss": "^3.3.2",
+      "vite": "^4.1.4"
+   },
+   "name": "i-money",
+   "private": true,
+   "scripts": {
+      "build": "vite build",
+      "dev": "vite",
+      "format": "prettier --write src/",
+      "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+      "preview": "vite preview"
+   },
+   "version": "0.0.0"
+}
